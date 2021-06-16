@@ -66,4 +66,17 @@ for (round = 0; round <= 4; round++) {
   console.log(playRound(playerSelection, computerSelection));
 }
 
+function declareWinner() {
+  if (playerWinCount == computerWinCount) {
+    return 'The Rock Paper Scissor battle is a tie!!!';
+  } else if (playerWinCount >= 5 || playerWinCount > computerWinCount) {
+    return 'Player wins!!!';
+  } else {
+    return 'Computer wins!!!';
+  }
+}
+
+let winnerOutput = declareWinner();
+
 console.log(scoreOutput());
+console.log(winnerOutput);
