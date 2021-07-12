@@ -1,0 +1,52 @@
+body {
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+div.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  font-size: 14px;
+  margin: 0px 8px;
+  padding: 0px 16px;
+  min-width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+div.btns {
+  display: flex;
+  justify-content: center;
+}
+
+div.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.result > p {
+  font-size: 14px;
+}
+
+div.footer {
+  position: fixed;
+  bottom: 8px;
+  right: 16px;
+}
+
+div.cs > p {
+  font-size: 10px;
+  font-style: italic;
+}
