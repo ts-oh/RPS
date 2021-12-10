@@ -1,4 +1,4 @@
-# RPS
+# Rock Paper Scissors
 
 **This was a Rock Paper Scissors project from 'The Odin Project' fundamentals.**
 
